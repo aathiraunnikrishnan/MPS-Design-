@@ -1,0 +1,69 @@
+.sec4head {
+  background-color: white;
+  color: black;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+#first {
+  color: #9eb10d;
+  font-size: 25x;
+  margin-top: 45px;
+}
+.sec4head h1 {
+  font-size: 50px;
+}
+.sec4head p {
+  font-size: 20px;
+}
+.sec4-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.img-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-radius: 30px;
+}
+
+.content {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.img-box:hover img {
+  transform: scale(1.1);
+}
+
+.img-box:hover .content {
+  opacity: 1;
+}
+
+.content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
