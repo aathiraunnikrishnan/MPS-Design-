@@ -1,0 +1,30 @@
+.Testimonials {
+  text-align: center;
+}
+#h1 {
+  color: #b4c246;
+  font-size: 30px;
+}
+h1 {
+  font-size: 50px;
+}
+.sec6-text {
+  background-color: whitesmoke;
+  position: relative;
+}
+#p1 {
+  color: #b4c246;
+}
+.sec6-text {
+  background-color: whitesmoke;
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.text01 {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  min-width: 300px;
+}
